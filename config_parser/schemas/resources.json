@@ -12,11 +12,16 @@
           "type": "number",
           "minimum": 0.01
         },
+        "tpus": {
+          "type": "integer",
+          "minimum": 0.01
+        },
         "mem": {
           "type": "number",
           "minimum": 0.01
         }
-      }
+      },
+      "required": ["cpus", "mem"]
     }
   }
 }
